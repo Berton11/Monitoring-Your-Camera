@@ -5,7 +5,7 @@ import cv2  # OpenCV untuk pemrosesan gambar dan video dari kamera
 from PIL import Image, ImageTk  # Pillow untuk konversi gambar agar kompatibel dengan Tkinter
 
 # Mengimpor fungsi untuk membuka koneksi kamera dari file lain
-from open_camera_list import CAMERA_A, CAMERA_B, CAMERA_C, CAMERA_D
+from camera_list import CAMERA_A, CAMERA_B, CAMERA_C, CAMERA_D
 
 # Mendefinisikan kelas utama untuk aplikasi kamera
 class CameraApp:
